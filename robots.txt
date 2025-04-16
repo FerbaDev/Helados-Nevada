@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.metalsin.com.ar/sitemap.xml

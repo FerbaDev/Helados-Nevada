@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helados Nevada</title>
+    <link rel="canonical" href="https://www.ejemplo.com.ar" />
+    <link rel="icon" href="./imagenes/Isotipo oficial (1).png" type="image/png">
+    <meta name="description" content="metadescripción">
+    <meta name="keywords" content="palabras clave">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <meta property="og:title" content="Metatitulo para Meta" />    
+    <meta property="og:url" content="https://www.ejemplo.com.ar" />
+    <meta property="og:image" content="./imagenes/Isotipo oficial (1).png" />
+    <meta name="google-site-verification" content="etiqueta de google site" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4HNNGRVRB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-G4HNNGRVRB');
+  </script>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <img src="./imagenes/Logotipo_simplificado lineal_blanco solo.png" alt="">
+      <!-- <h1>Nevada</h1> -->
+      <button id="abrir" class="abrir-menu" aria-label="Abrir menú"><i class="bi bi-list"></i></button>
+      <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar" aria-label="Cerrar menú"><i class="bi bi-x"></i></button>
+        <ul class="nav-list">
+          <li><a href="#productos" aria-label="Productos">Productos</a></li>
+          <li><a href="#ubicacion" aria-label="ubicacion">Ubicación</a></li>
+          <li><a href="#faq" aria-label="Preguntas frecuentes">Preguntas frecuentes</a></li>
+          <li><a href="#contacto" aria-label="Contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="card-presentacion">
+          <h1>Sumate a una marca con historia y sabor: Franquicias Nevada</h1>
+          <p class="scale-in-hor-left">Desde hace 35 años, Nevada conquista a Río Tercero con helados artesanales de calidad incomparable. Hoy podés llevar esta delicia a tu ciudad.</p>
+        </div>
+        <div class="hero-img-container">
+          <img src="./imagenes/logo-helado.png" alt="" class="hero-img">
+          <a href="https://wa.me/549357xxxxxx?text=¡Hola!+Quiero+hacer+una+consulta." class="btn-cta">Contactanos</a>
+        </div>
+      </section>
+            <!-- ********QUE HACEMOS?*********** -->
+            <!-- <section class="card-hacemos">
+              <h2>Qué hacemos?</h2>
+              <div class="hacemos-container">
+                <ul class="info-p">
+                  <li>Producto 1</li>
+                  <li>Producto 1</li>
+                  <li>Producto 3</li>
+                  <li>Producto 4</li>
+                  <li>Producto 5</li>
+                  <li>Producto 6<span> con descripción extra</span></li>
+                </ul>
+                <img src="https://picsum.photos/500" alt="">
+              </div>
+              <div class="contact-button-container" style="margin-top: 16px;">
+                <a href="https://wa.me/5493571xxxxxx?text=¡Hola!+Quiero+hacer+una+consulta." class="contact-button">Quiero contactarme</a>
+              </div>
+            </section> -->
+      <!-- ******** Productos *********** -->
+<div class="productos-wrapper">
+  <section class="productos" id="productos">
+    <h2>Nuestros Productos</h2>
+    <h4>Helados artesanales que hacen historia.</h4>
+    <p>En Nevada elaboramos cada helado con ingredientes seleccionados y recetas propias, cuidando cada detalle del proceso artesanal. Nuestro catálogo incluye sabores clásicos, combinaciones originales y opciones estacionales que sorprenden a cada paladar.</p>
+    <div class="productos-flex">
+      <div class="producto-card" data-producto="">
+        <img src="./imagenes/productos/palitos-de-agua.jpg" alt="">
+        <h3>Palitos de agua</h3>
+        <!-- <p>Caracterísiticas: .</p> -->
+      </div>
+      <div class="producto-card" data-producto="">
+        <img src="./imagenes/productos/Palito-bombon.jpg" alt="">
+        <h3>Palito bombón</h3>
+        <!-- <p>Caracterísiticas:</p> -->
+      </div>
+      <div class="producto-card" data-producto="">
+        <img src="./imagenes/productos/juguitos.jpg" alt="">
+        <h3>Juguitos</h3>
+        <!-- <p>Caracterísiticas:</p> -->
+      </div>
+      <div class="producto-card" data-producto="">
+        <img src="./imagenes/productos/alfajor-helado.jpg" alt="">
+        <h3>Alfajor helado</h3>
+        <!-- <p>Caracterísiticas:</p> -->
+      </div>
+      <div class="producto-card" data-producto="">
+        <img src="./imagenes/productos/bombon-escoces.jpg" alt="">
+        <h3>Bombón Escocés</h3>
+        <!-- <p>Caracterísiticas:</p> -->
+      </div>
+      <div class="producto-card" data-producto="">
+        <img src="./imagenes/productos/tortas-heladas.jpg" alt="">
+        <h3>Tortas Heladas</h3>
+        <!-- <p>Caracterísiticas:</p> -->
+      </div>
+      <div class="producto-card" data-producto="">
+        <img src="./imagenes/productos/bomboncitos.jpg" alt="">
+        <h3>Bomboncitos</h3>
+        <!-- <p>Caracterísiticas:</p> -->
+      </div>
+    </div>
+    <h3 style="color: white; text-align: center; margin-block: 20px;">No vendemos helados.<br> Creamos recuerdos en cada cucharada.</h3>
+  </section>
+</div>
+
+    <!-- Pop-up -->
+    <div id="popup-overlay" class="popup-overlay">
+      <div id="popup-content" class="popup-content">
+          <span id="popup-close" class="popup-close" aria-label="cerrar pop up">&times;</span>
+          <p id="popup-text"></p>
+          <!-- Imagen pequeña del producto se añadirá dinámicamente aquí -->
+          <a id="popup-whatsapp-link" class="popup-whatsapp-btn" href="#" target="_blank" aria-label="Enviar WhatsApp">Enviar mensaje por WhatsApp</a>
+      </div>
+  </div>   
+      <!-- ************ ventajas **************-->
+      <section id="ventajas" class="ventajas-section">
+        <div class="container">
+            <h2>Llevá Nevada a tu ciudad</h2>
+            <div class="ventajas-grid">
+                <div class="ventaja-card">
+                  <i class="bi bi-award-fill"></i>
+                    <h3>Años de Experiencia</h3>
+                    <p>Con más de 25 años en la industria.</p>
+                </div>
+                <div class="ventaja-card">
+                  <i class="bi bi-patch-check"></i>
+                    <h3>Producto probado</h3>
+                    <p>Reconocido por su calidad y sabor en Río Tercero y alrededores.</p>
+                </div>
+                <div class="ventaja-card">
+                  <i class="bi bi-geo-alt-fill"></i>
+                    <h3>Marca posicionada</h3>
+                    <p>Presencia local fuerte y positiva.</p>
+                </div>
+                <div class="ventaja-card">
+                  <i class="bi bi-cash-coin"></i>
+                    <h3>Negocio accesible</h3>
+                    <p>Costos controlados y asistencia permanente.</p>
+                </div>
+            </div>
+            <h3>Convertite en referente del helado artesanal en tu localidad con una marca que ya enamoró a miles.</h3>
+            <a href="https://wa.me/549357xxxxxx?text=¡Hola!+Quiero+hacer+una+consulta." class="btn-cta turquesa">Contactanos</a>
+        </div>
+    </section>
+       <!-- /********* videos *********/ -->
+       <!-- <section id="videos" class="videos-section">
+        <div class="container">
+            <h2>Vea Nuestros Productos en Acción</h2>
+            <div class="videos-container">
+              <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/D0UnqGm_miA?si=C-MgaD-fgKT-t39s" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
+                <h3>Titulo 1</h3>
+                <p>Descripción.</p>
+            </div>
+            <div class="video-card">
+              <div class="video-wrapper">
+                  <iframe src="https://www.youtube.com/embed/D0UnqGm_miA?si=C-MgaD-fgKT-t39s" 
+                      title="YouTube video player" frameborder="0" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                  </iframe>
+              </div>
+              <h3>Titulo 1</h3>
+              <p>Descripción.</p>
+          </div>
+            </div>
+        </div>
+    </section> -->
+<!-------------------- ubicación ------------------------------------------->
+    <div class="ubicacion-container" id="ubicacion">
+      <h2>Dónde estamos?</h2>
+      <!-- <div class="local" style="padding-block: 20px;">
+        <i class="bi bi-geo-alt"></i>
+        <address>Calle siempreviva 123, Río Tercero, Córdoba. Argentina.</address>
+      </div> -->
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13508.815243241124!2d-64.11233615379494!3d-32.17177833936318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1snevada%20heladeria!5e0!3m2!1ses-419!2sar!4v1744579262880!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+<!-- ************* preguntas frecuentas **************** -->
+
+<section class="faq" id="faq">
+  <div>
+      <h2 class="faq-header">Preguntas Frecuentes</h2>
+      <div>
+          <div>
+              <details>
+                  <summary>¿Qué necesito para abrir una franquicia Nevada?</summary>
+                  <p>
+                    Contar con un local, inversión inicial y compromiso con la calidad. Te brindamos asesoramiento completo.
+                  </p>
+              </details>
+          </div>
+          <div>
+              <details>
+                  <summary>¿Cuál es la inversión inicial aproximada?</summary>
+                  <p>
+                    Varía según la ciudad y el local. Te enviamos un dossier con todos los detalles.
+                  </p>
+              </details>
+          </div>
+          <div>
+              <details>
+                  <summary>¿Tengo que saber hacer helado?</summary>
+                  <p>
+                    No, nosotros te capacitamos y proveemos lo necesario. Solo necesitás ganas de emprender.
+                  </p>
+              </details>
+          </div>
+          <div>
+              <details>
+                  <summary>¿Puedo elegir los sabores que voy a vender?</summary>
+                  <p>
+                    Sí, te ofrecemos un catálogo completo y te ayudamos a elegir según tu público.
+                  </p>
+              </details>
+          </div>
+          <div>
+              <details>
+                  <summary>¿Qué incluye el soporte de la franquicia?</summary>
+                  <p>
+                    Capacitación inicial, asistencia técnica, marketing, proveedores y más.
+                  </p>
+              </details>
+          </div>
+      </div>
+  </div>
+</section>
+
+      <!--------------------------------- FOOTER ------------------------------->
+
+      <footer>
+        <div class="footer-title" id="contacto">
+          <h2>Contactanos</h2>
+        </div>
+        <div class="footer-body">
+          <div class="footer-sec-1">
+            <div class="contacto">
+              <div>
+                <h3>Teléfonos</h3>
+                <a
+                  href="https://wa.me/549357573266?text=¡Hola!+Quiero+hacer+una+consulta."
+                  target="_blank" aria-label="Enviar WhatsApp"
+                  >3571-573266</a
+                >
+              </div>
+              <div>
+                <h3>Email</h3>
+                <p><a href="mailto:metalsin@gmail.com">agenciatalbalabs@gmail.com</a></p>
+            </div>
+              <div class="local">
+                <i class="bi bi-geo-alt"></i>
+                <address>Calle Siempreviva 123, Río Tercero, Córdoba. Argentina.</address>
+              </div>
+            </div>
+            <div class="redes">
+              <h2>Redes</h2>
+              <div class="redes-iconos">
+                <a
+                  href="https://wa.me/5493571573266?text=¡Hola!+Quiero+hacer+una+consulta."
+                  target="_blank" aria-label="Enviar WhatsApp"
+                >
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/talbalabs/" target="_blank" aria-label="Ver página de instagram">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="firma">
+          <p>Desarrollado por <a href="https://talbalabs.com.ar" target="_blank">Talba Labs</a></p>
+        </div>
+      </footer>
+      <a href="https://wa.me/5493571573266?text=¡Hola!+Quiero+hacer+una+consulta." class="whatsapp-float" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" ></script>
+    <script defer>
+      AOS.init();
+    </script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

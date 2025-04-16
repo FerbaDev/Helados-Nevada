@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
           const imgSrc = card.querySelector('img').src;
 
           popupText.textContent = `¿Quieres más información sobre ${producto}?`;
-          popupWhatsappLink.href = `https://wa.me/5493571539003?text=Hola, me gustaría obtener más información sobre ${producto}.`;
+          popupWhatsappLink.href = `https://wa.me/5493571614732?text=Hola, me gustaría obtener más información sobre ${producto}.`;
 
           // Crear y agregar la imagen al popup
           const popupImg = document.createElement('img');
